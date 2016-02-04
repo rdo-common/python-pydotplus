@@ -2,7 +2,7 @@
 
 Name:           python-%{modname}
 Version:        2.0.2
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Python interface to Graphviz's Dot language
 
 License:        MIT
@@ -75,5 +75,8 @@ popd
 %{python3_sitelib}/%{modname}*
 
 %changelog
+* Thu Feb 04 2016 Fedora Release Engineering <releng@fedoraproject.org> - 2.0.2-2
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_24_Mass_Rebuild
+
 * Sun Dec 06 2015 Igor Gnatenko <i.gnatenko.brain@gmail.com> - 2.0.2-1
 - Initial package
